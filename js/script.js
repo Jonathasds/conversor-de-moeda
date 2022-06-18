@@ -1,5 +1,5 @@
-const form = document.getElementById('form');
-form.addEventListener('submit', handleSubmit)
+const form = document.getElementById('form-group');
+form.addEventListener('submit', handleSubmit);
 
 
 const inputValue = document.getElementById('value-real');
@@ -48,8 +48,8 @@ function valueFormatter(locale, currency){
 function animateResult() {
     return result.animate([
         { transform: 'translateY(-150px)'},
-        {transform:'translatey(150px)' }
-    ], { duration: 700})
+        {transform:'translatey(50px)' }
+    ], { duration: 400})
 };
 
 
