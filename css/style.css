@@ -116,6 +116,18 @@ main #result span{
         margin-right: 20px;
     }
 
+    main #result {
+        font-size: 2em;
+        color: #0b0be0;
+        
+    }
+
+    main #result span{
+        font-size: .8em;
+        margin-right:4px;
+        margin-left: 4px;
+    }
+
 
 }
 
@@ -133,6 +145,32 @@ input{
     margin-right: 0;
 }
 
+main #result {
+    font-size: 1.7em;
+    color: #0b0be0;
+    
+}
+
+main #result span{
+    font-size: .6em;
+    margin-right:4px;
+    margin-left: 4px;
+}
+
+}
+
+@media ( max-width: 283px){
+    main #result {
+        font-size: 1.3em;
+        color: #0b0be0;
+        
+    }
+    
+    main #result span{
+        font-size: .5em;
+        margin-right:4px;
+        margin-left: 4px;
+    }
 }
 
 
